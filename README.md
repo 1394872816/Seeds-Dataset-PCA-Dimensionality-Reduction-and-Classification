@@ -23,6 +23,8 @@
 
 根据实验结果，两种方法在各项指标上的表现如下：
 
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/method_comparison.png)
+
 | **评价指标** | **直接分类（7维）** | **PCA降维分类（4维）** | **差异** | **结论** |
 |------------|-------------------|---------------------|---------|----------|
 | **平均准确率** | 89.46% | **90.82%** | **+1.36%** | PCA更优 |
@@ -44,6 +46,22 @@
 | SVM | 88.10% | 88.10% | 0.00% | 无影响 |
 | Logistic回归 | 92.86% | 90.48% | -2.38% | 轻微下降 |
 | 决策树 | 90.48% | 88.10% | -2.38% | 轻微下降 |
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/accuracy_comparison_PCA%E9%99%8D%E7%BB%B4%E5%90%8E.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_%E6%A2%AF%E5%BA%A6%E6%8F%90%E5%8D%87_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_KNN_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_SVM_RBF_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_Logistic%E5%9B%9E%E5%BD%92_PCA.png)
+
+![alt text](https://github.com/1394872816/Seeds-Dataset-PCA-Dimensionality-Reduction-and-Classification/blob/main/%E5%AE%9E%E9%AA%8C%E5%9B%BE%E8%A1%A8%E5%8F%8A%E6%95%B0%E6%8D%AE/confusion_matrix_%E5%86%B3%E7%AD%96%E6%A0%91_PCA.png)
 
 ## 二、差异分析：为什么会产生这些差异？
 
